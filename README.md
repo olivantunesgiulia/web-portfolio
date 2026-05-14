@@ -44,7 +44,7 @@ O projeto foi criado com foco em:
 ```bash
 projeto-web-portfolio/
 │
-├── home.html
+├── index.html
 ├── style.css
 ├── script.js
 │
