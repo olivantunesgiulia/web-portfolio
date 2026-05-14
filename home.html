@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giulia Antunes | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="imagens/logo-portfolio.png" alt="Logo do Portfólio" id="imagem_header">
+            <nav>
+                <a href="#hero" class="nav_header">Home</a>
+                <a href="#sobre" class="nav_header">Sobre</a>
+                <a href="#projetos" class="nav_header">Projetos</a>
+                <a href="#contato" class="nav_header">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="hero">
+
+            <div class="hero-texto">
+                
+                <h1>Olá, me chamo Giulia</h1>
+                
+                <h2>Desenvolvedor Full Stack em formação</h2>
+                
+                <p>Sou estudante de Análise e Desenvolvimento de Sistemas e estou focada em desenvolvimento web. Tenho experiência com Python, Flask e JavaScript, desenvolvendo projetos práticos como APIs e aplicações fullstack.</p>
+
+                <h3 id="social">Me encontre em: </h3>
+           
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/giulia-antunes-de-oliveira-637078231/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/olivantunesgiulia" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+
+                <div class="botoes">
+                    <a href="#contato" class="btn">Me contrate</a>
+                    <a href="assets/cv-giulia-antunes.pdf" target="_blank" class="btn">Currículo</a>
+                </div>
+                
+            </div>
+
+            <div class="hero-imagem">
+                <img src="imagens/foto-giulia.png" alt="placeholder foto giulia">
+            </div>
+
+        </section>
+
+        <section id="sobre" class="hidden">
+
+            <div class="sobre-topo">
+                <h1>Sobre mim</h1>
+                <h2>Um pouco sobre minha trajetória e objetivos na área de tecnologia</h2>
+            </div>
+
+            <div class="sobre-conteudo">
+
+                <div class="sobre-texto">
+
+                    <h3>Quem sou eu?</h3>
+                    <p>Olá, meu nome é Giulia Antunes. Sou uma estudante apaixonada por tecnologia e desenvolvimento de software, sempre em busca de aprender novas ferramentas e aprimorar minhas habilidades. Tenho interesse especial em desenvolvimento web e programação, e gosto de transformar ideias em soluções práticas e funcionais.</p>
+
+                    <h3>Formação</h3>
+                    <p>Atualmente, curso Análise e Desenvolvimento de Sistemas na Universidade Presbiteriana Mackenzie, onde venho desenvolvendo conhecimentos em lógica de programação, desenvolvimento web e boas práticas de software. Durante a graduação, tenho trabalhado com tecnologias como Python, HTML, CSS, JavaScript e Java. Também tive contato com modelagem UML e APIs.</p>
+
+                    <h3>Objetivos</h3>
+                    <p>Meu principal objetivo é conquistar uma oportunidade de estágio na área de tecnologia, onde eu possa aplicar meus conhecimentos na prática, adquirir experiência profissional e continuar evoluindo como desenvolvedora. Busco crescer em um ambiente que valorize aprendizado contínuo e inovação.</p>
+
+                </div>
+
+                <div class="foto-sobre">
+                    <img src="imagens/foto-giulia.png" alt="placeholder foto giulia">
+                </div>
+
+            </div>
+            
+        </section>
+
+        <section id="projetos" class="hidden">
+
+            <h1>Meus projetos</h1>
+
+            <div class="projetos-conteudo">
+
+                <div class="bloco-projeto">
+                    
+                    <div class="projeto-imagem">
+                        <img src="imagens/capa-api.png" alt="Imagem Ilustrativa">
+                    </div>
+
+                    <h2>API To-Do List Fullstack</h2>
+                    <h3>Flask | JavaScript | HTML | CSS | REST API</h3>
+                    <p>Aplicação fullstack desenvolvida com Flask, JavaScript, HTML e CSS para gerenciamento de tarefas utilizando API REST e persistência em JSON.</p>
+                    
+                    <div class="btnProjeto">
+                        <a href="projeto-todolist.html" class="botao">Ver projeto</a>
+                        <a href="https://github.com/olivantunesgiulia/api-tarefas-flask" class="botao" target="_blank">GitHub</a>
+                    </div>
+
+                </div>
+
+                <div class="bloco-projeto">
+                    
+                    <div class="projeto-imagem">
+                        <img src="imagens/capa-python.png" alt="Imagem Ilustrativa">
+                    </div>
+
+                    <h2>Sistema de Lista de Tarefas em Python</h2>
+                    <h3>Python | JSON | CLI</h3>
+                    <p>Projeto em Python desenvolvido para gerenciamento de tarefas no terminal, utilizando funções, JSON e boas práticas de programação.</p>
+
+                    <div class="btnProjeto">
+                        <a href="projeto-python.html" class="botao">Ver projeto</a>
+                        <a href="https://github.com/olivantunesgiulia/todo-list-python" class="botao" target="_blank">GitHub</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="contato" class="hidden">
+
+            <div class="contato-container">
+
+                <h1>Contato</h1>
+                <p>Entre em contato comigo para oportunidades, projetos ou networking.</p>
+
+                <form action="">
+
+                    <input type="text" placeholder="Seu nome" required>
+
+                    <input type="email" placeholder="Seu email" required>
+
+                    <textarea placeholder="Sua mensagem"></textarea>
+
+                    <button type="submit">Enviar mensagem</button>
+                    <p id="mensagem-feedback"></p>
+
+                    
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <button id="btn-topo">↑</button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
