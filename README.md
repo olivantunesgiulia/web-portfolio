@@ -113,7 +113,7 @@ Durante o desenvolvimento deste projeto, aprofundei conhecimentos em:
 O currículo pode ser acessado diretamente pelo botão disponível no portfólio ou pelo arquivo:
 
 ```bash
-assets/curriculo-giulia.pdf
+assets/cv-giulia-antunes.pdf
 
 ```
 
